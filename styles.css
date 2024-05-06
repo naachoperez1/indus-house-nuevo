@@ -8,9 +8,7 @@
     --gris: rgb(225, 231, 238);
   }
 
-body{
-    /* background-image: url(imagenes/fondo-textura.webp); */
-}
+
 
 
 /* clase de utilidad para agregar animacion fadein */
@@ -236,7 +234,7 @@ body{
 
 /* tercer div */
 .tercer-div{
-    padding: 5vh;
+    padding: 15vh;
     background-color: var(--gris);
 }
 
@@ -244,6 +242,10 @@ body{
     display: flex;
     justify-content: center;
     gap: 5vw;
+}
+
+.imagen-tarjeta{
+    width: 100%;
 }
 
 .flip-card {
