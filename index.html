@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- iconos redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -28,41 +31,100 @@
 </head>
 <body>
     <nav class="nabvar">
-        <div class="contenedor-navbar">
-            <a href="index.html" class="nav-item">Inicio</a>
-            <a href="nosotros.html" class="nav-item">Nosotros</a>
-        </div>
+            <div class="contenedor-logo">
+                <a href="index.html" class="nav-item-logo">
+                    <img src="imagenes/Captura_de_pantalla__77_-removebg-preview.png" alt="" class="logo">
+                </a>
+            </div>
+            <div class="contenedor-items">
+                <a href="index.html" class="nav-item">Inicio</a>
+                <a href="nosotros.html" class="nav-item">Nosotros</a>
+            </div>
+
     </nav>
 
-    <div class="swiffy-slider slider-nav-autoplay slider-nav-visible slider-nav-animation slider-nav-animation-slow " id="animatedText">
+    <div class="swiffy-slider slider-nav-autoplay slider-nav-visible slider-nav-animation slider-nav-animation-slow " id="animatedText" data-slider-nav-autoplay-interval="5000">
 
         <ul class="slider-container" id="container1">
             <li id="slide1" class="slide-visible">
                 <div>
-                    <img src="imagenes/casa-slider-3.jpg" alt="..." loading="lazy" class="w-100">
+                    <img src="imagenes/slider-1.jpeg" alt="..." loading="lazy" class="w-100">
                     <div class="texto-slider-contenedor">
-                        <h1 class="titulo-slider">Indus-House</h1>
-                        <h4 class="texto-slider">Fabrica de viviendas container e industrializadas.</h4>
+                        <h1 class="titulo-slider">Container vivienda</h1>
+                        <h4 class="texto-slider">Obtené tu vivienda container de 15 o 30 m², llave en mano, y envío a todo el país.</h4>
                     </div>
+                    <div class="contenedor-img-superpuestas">
+                        <img src="imagenes/casa.png" alt="" class="img-superpuesta-1">
+                        <img src="imagenes/casa-slider-2.jpg" alt="" class="img-superpuesta-2">
+                    </div>
+                    
                 </div>
     
             </li>
 
             <li id="slide2">
                 <div>
-                    <img src="imagenes/casa-slider-2.jpg" alt="..." loading="lazy" class="w-100">
+                    <img src="imagenes/slider-2.jpeg" alt="..." loading="lazy" class="w-100">
                     <div class="texto-slider-contenedor">
-                        <h1 class="titulo-slider">Indus-House</h1>
-                        <h4 class="texto-slider">Fabrica de viviendas container e industrializadas.</h4>
+                        <h1 class="titulo-slider">Container comercial</h1>
+                        <h4 class="texto-slider">Emprendé tu negocio hoy mismo, te asesoramos y hacemos tu sueño empresarial realidad.</h4>
+                    </div>
+                    <div class="contenedor-img-superpuestas">
+                        <img src="imagenes/local-container3.jpg" alt="" class="img-superpuesta-1">
+                        <img src="imagenes/local-container4.jpg" alt="" class="img-superpuesta-2">
                     </div>
                 </div>
             </li>
             <li id="slide3">
                 <div>
-                    <img src="imagenes/casa-slider-1.webp" alt="..." loading="lazy" class="w-100">
+                    <img src="imagenes/slider-3.jpeg" alt="..." loading="lazy" class="w-100">
                     <div class="texto-slider-contenedor">
-                        <h1 class="titulo-slider">Indus-House</h1>
-                        <h4 class="texto-slider">Fabrica de viviendas container e industrializadas.</h4>
+                        <h1 class="titulo-slider">Rental container</h1>
+                        <h4 class="texto-slider">Iniciá tu propio negocio y entrá al mercado con un container a tu medida.</h4>
+                    </div>
+                    <div class="contenedor-img-superpuestas">
+                        <img src="imagenes/local-container2.jpg" alt="" class="img-superpuesta-2">
+                        <img src="imagenes/local-container.jpg" alt="" class="img-superpuesta-1">
+                    </div>
+                </div>
+            </li>
+            <li id="slide4">
+                <div>
+                    <img src="imagenes/slider-4.jpeg" alt="..." loading="lazy" class="w-100">
+                    <div class="texto-slider-contenedor">
+                        <h1 class="titulo-slider">Módulo habitacional y comercial</h1>
+                        <h4 class="texto-slider">Hacemos a tu medida, para tu proyecto o vivienda.</h4>
+                    </div>
+                    <div class="contenedor-img-superpuestas">
+                        <img src="imagenes/casa-slider-1.webp" alt="" class="img-superpuesta-1">
+                        <img src="imagenes/casa-slider-2.webp" alt="" class="img-superpuesta-2">
+                    </div>
+                </div>
+            </li>
+            <li id="slide5">
+                <div>
+                    <img src="imagenes/slider-5.jpeg" alt="..." loading="lazy" class="w-100">
+                    <div class="texto-slider-contenedor">
+                        <h1 class="titulo-slider">Viviendas industrializadas</h1>
+                        <h4 class="texto-slider">Obra en seco y llave en mano. Calidad y diseños vanguardistas. Enviamos y ensamblamos en todo el país.</h4>
+                    </div>
+                    <div class="contenedor-img-superpuestas">
+                        <img src="imagenes/casa-container.jpg" alt="" class="img-superpuesta-1">
+                        <img src="imagenes/casa-container2.avif" alt="" class="img-superpuesta-2">
+                    </div>
+                    
+                </div>
+            </li>
+            <li id="slide6">
+                <div>
+                    <img src="imagenes/slider-7.jpeg" alt="..." loading="lazy" class="w-100">
+                    <div class="texto-slider-contenedor">
+                        <h1 class="titulo-slider">Diseñá tu proyecto a medida</h1>
+                        <h4 class="texto-slider">Trabajamos en todo el pais, experiencia y trayectoria en todo el ejido nacional.</h4>
+                    </div>
+                    <div class="contenedor-img-superpuestas">
+                        <img src="imagenes/obra -indus.jpeg" alt="" class="img-superpuesta-1">
+                        <img src="imagenes/obra-indus-1.jpeg" alt="" class="img-superpuesta-2">
                     </div>
                 </div>
             </li>
@@ -74,6 +136,17 @@
         <h1 class="titulo-segundo-div fadein">Comprometidos con el <br> acceso a vivienda.</h1>
         <img src="imagenes/png-casa.webp" class="png-casa fadein" alt="">
         <h3 class="texto-segundo-div fadein">En Indus House nace una propuesta fundamentada en la necesidad <br>de acercar a las personas  la oportunidad de adquirir viviendas dignas,<br> con estandares de calidad sobresalientes, respetando las normativas de <br>durabilidad, seguridad y confort.</h3>
+    </div>
+
+    <div class="showcase">
+        <div class="info-container">
+            <h2>Quienes somos?</h2>
+            <p>Indus-House es una empresa cordobesa enfocada en ser lider del mercado de la construcción sustentable y transportable, con presencia en todo el país y en Uruguay, contando con presencia comercial en CABA, Bs As y la ciudad de Mendoza.
+                Nuestro equipo de profesionales está comprometido en la construcción sustentable, innovando, diseñando y proyectando unidades habitacionales y comerciales transportables.</p>
+        </div>
+        <video muted loop autoplay>
+            <source src="imagenes/video-casa.mp4" type="video/mp4">
+        </video>
     </div>
 
     <div class="tercer-div">
@@ -124,6 +197,34 @@
             </div>
         </div>
     </div>
+
+    <div class="contacto">
+        <ul>
+            <li class="item">
+              <a href="https://www.instagram.com/indus_house/">
+                <i class="fa-brands fa-instagram icon"></i>
+              </a>
+            </li>
+            <li class="item">
+              <a href="https://api.whatsapp.com/message/4DXGMT7XOKDTG1?autoload=1&app_absent=0">
+                <i class="fa-brands fa-whatsapp icon"></i>
+              </a>
+            </li>
+            <li class="item">
+              <a href="https://www.youtube.com/@indushouse">
+                <i class="fa-brands fa-youtube icon"></i>
+              </a>
+            </li>
+          </ul>
+    </div>
+
+    <footer class="footer">
+        Indus House - 2024.
+    </footer>
+
+
+
+
 
 
     
