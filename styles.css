@@ -135,7 +135,7 @@
     /* background-color: #99a0af; */
     display: flex;
     justify-content: space-around;
-    padding: 20px 0 10px;
+    padding:  10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -149,11 +149,12 @@
 
 .contenedor-items{
     display: flex;
+    align-items: center;
     gap: 10vh;
 }
 
 .logo{
-  width: 30%;
+  width: 15vh;
   -webkit-filter: drop-shadow(1px 1px 1px var(--azul));
   filter: drop-shadow(1px 1px 1px var(--azul));
 
@@ -165,11 +166,11 @@
     text-decoration: none;
     padding: 1%;
     border-radius: .5cap;
-    color: white;
+    color: #869bc7;
     font-size: 1.3rem;
     font-weight: 500;
     &:hover{
-        color: #99a0af;
+        color: #546fa6;
     }
 
 }
