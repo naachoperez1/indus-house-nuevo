@@ -132,7 +132,7 @@
     background-color: var(--azul);
     z-index: 1;
     top: 0; */
-    /* background-color: var(--azul); */
+    /* background-color: #99a0af; */
     display: flex;
     justify-content: space-around;
     padding: 20px 0 10px;
@@ -141,7 +141,7 @@
     left: 0;
     z-index: 9999;
     width: 100%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     /* box-shadow: 1px 1px 10px #4078e9; */
 }
 
@@ -165,11 +165,11 @@
     text-decoration: none;
     padding: 1%;
     border-radius: .5cap;
-    color: #558eff;
+    color: white;
     font-size: 1.3rem;
     font-weight: 500;
     &:hover{
-        color: #113e99;
+        color: #99a0af;
     }
 
 }
@@ -249,6 +249,7 @@
 
 .texto-segundo-div{
     font-size: 3vh;
+    line-height: 4vh;
     text-align: center;
     margin:0;
 }
@@ -375,8 +376,8 @@
 /* contacto */
 
 .contacto{
-  background-color: var(--gris);
-  padding: 5vw;
+  background-color: #8d8d8d;
+  padding: 3vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -436,13 +437,13 @@ ul {
   --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
 }
 .item:nth-child(2) {
-  --bg-color: #21ff03;
+  --bg-color: #286ef0;
 }
 .item:nth-child(3) {
-  --bg-color: #ff0000;
+  --bg-color: #21ff03;
 }
 .item:nth-child(4) {
-  --bg-color: #000;
+  --bg-color: #ff0000;
 }
 
 /* seccion: sobre-nosotros */
@@ -483,19 +484,28 @@ ul {
 
 /* footer */
 .footer{
-  background-color: var(--gris);
-  font-weight: 500;
+  background-color: #8d8d8d;
+  color: white;
+  font-size: 1.1rem;
+  padding: 1vh ;
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+}
+
+.footer ul{
+  display: flex;
+  flex-direction: column;
+  line-height: .1vh;
+  margin: 0 auto;
+  list-style-type: disc;
+}
+
+.footer h3{
   text-align: center;
-  padding: 2vh;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 
-.footer-nosotros{
-  background-color: var(--gris);
-  font-weight: 500;
-  text-align: center;
-  padding: 2vh;
-  font-size: 1.3rem;
-}
 
