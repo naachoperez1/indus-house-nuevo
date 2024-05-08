@@ -154,6 +154,8 @@
 
 .logo{
   width: 30%;
+  -webkit-filter: drop-shadow(1px 1px 1px var(--azul));
+  filter: drop-shadow(1px 1px 1px var(--azul));
 
 }
 
@@ -163,11 +165,11 @@
     text-decoration: none;
     padding: 1%;
     border-radius: .5cap;
-    color: rgb(68, 179, 243);
+    color: #558eff;
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 500;
     &:hover{
-        color: #558eff;
+        color: #113e99;
     }
 
 }
@@ -255,7 +257,7 @@
 /* tercer div */
 .tercer-div{
     padding: 15vh;
-    background-color: #ece9e9;
+    background-color: white;
 }
 
 .contenedor-tarjetas{
@@ -473,6 +475,7 @@ ul {
   list-style-type:disc;
 }
 
+
 .titulo-sobre-nosotros{
   font-size: 3vw;
   color: #5a5a5a;
@@ -489,6 +492,7 @@ ul {
 
 
 .footer-nosotros{
+  background-color: var(--gris);
   font-weight: 500;
   text-align: center;
   padding: 2vh;
