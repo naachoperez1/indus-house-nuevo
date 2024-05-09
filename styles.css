@@ -141,8 +141,6 @@
     left: 0;
     z-index: 9999;
     width: 100%;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
     /* box-shadow: 1px 1px 10px #4078e9; */
 
     @media (max-width:500px) {
@@ -150,6 +148,11 @@
       align-items: center;
     }
 }
+
+.blur {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  }
 
 
 
