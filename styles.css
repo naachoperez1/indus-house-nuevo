@@ -209,7 +209,7 @@
     top: 30%;
     left: 10%;
 
-    @media (max-width:400px) {
+    @media (max-width:600px) {
       left: 0;
       padding: 10px;
     }
@@ -483,7 +483,7 @@ ul {
   display: flex;
   list-style: none;
   gap: 2.5rem;
-  @media (max-width:500px) {
+  @media (max-width:600px) {
     flex-direction: column;
     padding: 2vh;
   }
